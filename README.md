@@ -60,3 +60,12 @@ There are a few ways to integrate with Gmail (but only one right way!):
 2. __An email account at the host AND a forwarding entry__. This is just as fast as option 1, but you can check the spam folder. On the downside, you have to manage disk usage as we would all be sharing just 25 GB. Not recommended.
 
 3. __An email account at the host AND a forwarding entry AND a POP3 connection in Gmail__. This non-obvious solution relies upon Gmail's outstanding deduplication capability. It's receiving each message twice, but it only presents it to us once! This is the best of all worlds because it's fast, and the POP3 connection empties the mailbox automatically. It does not bring the spam across, so you might need to log into the hosting account occasionally to check the spam folder.
+
+## Workspace UX Drawbacks
+
+It's not all bad news. By ripping off this band-aid, we overcome the following annoyances of using a business-focused service for our personal needs:
+
+- Workspace accounts can't participate in Family groups for services like YouTube Premium.
+- Gmail nags us when we address email to recipients not in Contacts or the rouleaufam.org domain.
+- Meet requires us to usher Caleb into each call he joins with his personal Google account.
+- Workspace spam filtering settings are annoying. I have to check mine regularly because it's so touchy. For example, Daniel and Colden had to retrieve my first email on this topic from spam; Caleb received it in his Inbox.
