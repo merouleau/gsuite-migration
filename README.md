@@ -6,13 +6,20 @@ This repo is a place to manage our family's migration from GSuite Legacy Free to
 
 ## Background
 
-In 2007 we accepted Google's offer of a perpetually free Google Apps for Domains service with up to 50 user accounts. At some point, our account limit became 100, and subsequently, new subscribers to the free offer were limited to ten accounts. In 2012, Google stopped accepting new subscribers to the free service. Over the years, Google Apps for Domains became GSuite, and the free service was named GSuite Legacy Free Edition (GLFE).
+In 2007 we accepted Google's offer of a perpetually free Google Apps for Domains service with 50 user accounts. At some point, our account limit became 100, and subsequently, new subscribers to the free offer were limited to ten accounts. In 2012, Google stopped accepting new subscribers to the free service. Over the years, Google Apps for Domains became GSuite, and the free service was named GSuite Legacy Free Edition (GLFE).
 
-Now GSuite is becoming Workspace. In conjunction with that transition, Google has decided to begin charging for this perpetually free service. Offering no specific terms, Google has suggested that it might provide a discount to non-business GLFE customers who have fewer than ten accounts.
+Now GSuite is becoming Workspace. With that transition, Google will charge for this perpetually free service. Offering no specific terms, Google hinted about a discount to non-business GLFE customers with at most ten accounts.
 
-Our family uses GLFE to support a shared identity on the Internet, has nine active accounts, and expects to need more as marriages occur and children are born and mature. The 50 accounts promised in 2007 are enough; ten accounts is not.
+Our family uses GLFE to support a shared identity on the Internet, has nine active accounts, and expects to need more as marriages occur and children are born and mature. The 50 accounts promised in 2007 are enough; ten are not.
 
-While trusting Google to keep its word was a mistake, we did hedge our bets slightly in a way that enables a superior solution to our problem. Our GLFE service ties to a subdomain (ga.rouleaufam.org), and rouleaufam.org is an alias domain. Our accounts are of the form user@ga.rouleaufam.org, but we send and receive email as user@rouleaufam.org. We will make new user@rouleaufam.org personal Google accounts and leave the ga.rouleaufam.org service in perpetual suspension.  to preserve our ability to authenticate against those accounts and make new Google personal accounts of the form user@rouleaufam.org
+While trusting Google to keep its word was a mistake, we did hedge our bets slightly in a way that enables a superior solution to our problem. Our GLFE service ties to a subdomain (ga.rouleaufam.org), and rouleaufam.org is an alias domain. Our GLFE accounts are user@ga.rouleaufam.org, but our public identities for email and sharing are user@rouleaufam.org. The distinction allows us to make new user@rouleaufam.org personal Google accounts and leave the ga.rouleaufam.org service in perpetual suspension to support legacy authentication needs.
+
+If our accounts and public identities were identical, the solution we're implementing would require us to cancel the GLFE service entirely and lose the ability to authenticate to those accounts. The result would be stranded assets:
+
+1. _Sign in with Google_ accounts.
+2. Still-supported services like Photos and YouTube.
+3. Paid content like movies from the Play Store.
+4. Android devices - phones, tablets, streamers, and TVs - that we forget to reset before the cancellation.
 
 ## Concerns
 
