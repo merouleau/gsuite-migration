@@ -55,8 +55,8 @@ For hosting rouleaufam.org email, I suggest MDDHosting, a cPanel-based web hosti
 
 There are a few ways to integrate with Gmail (but only one right way!):
 
-1. No email account at the host. Just forward yourname@rouleaufam.org to your Gmail account. This is simple and fast, but it doesn't allow you to check for misclassified spam at the host. Not recommended.
+1. __No email account at the host__. Just forward yourname@rouleaufam.org to your Gmail account. This is simple and fast, but it doesn't allow you to check for misclassified spam at the host. Not recommended.
 
-2. An email account at the host AND a forwarding entry. This is just as fast as option 1, but you can check the spam folder. On the downside, you have to manage disk usage as we would all be sharing just 25 GB. Not recommended.
+2. __An email account at the host AND a forwarding entry__. This is just as fast as option 1, but you can check the spam folder. On the downside, you have to manage disk usage as we would all be sharing just 25 GB. Not recommended.
 
-3. An email account at the host AND a forwarding entry AND a POP3 connection in Gmail. This non-obvious solution relies upon Gmail's outstanding deduplication capability. It's receiving each message twice, but it only presents it to us once! This is the best of all worlds because it's fast, and the POP3 connection empties the mailbox automatically. It even brings the spam across for Gmail to deal with, so you never have to log into the hosting account.
+3. __An email account at the host AND a forwarding entry AND a POP3 connection in Gmail__. This non-obvious solution relies upon Gmail's outstanding deduplication capability. It's receiving each message twice, but it only presents it to us once! This is the best of all worlds because it's fast, and the POP3 connection empties the mailbox automatically. It does not bring the spam across, so you might need to log into the hosting account occasionally to check the spam folder.
