@@ -37,7 +37,7 @@ If our accounts and public identities were identical, the solution we're impleme
 
 7. __Photos (suspension)__. rclone can copy these, but I see no way to copy or move share grants. Fortunately, Google says Photos will continue to be accessible during suspension - presumably, this accessibility will include pre-existing shares?
 
-8. __Drive (suspension)__. Drive is only available for Takeout after suspension (7/1/22 earliest) and not at all 60 days later, so we'll need to copy with rclone and identify and reestablish existing shares both with and by the account. Note that Docs and Sheets are part of Drive! And while rclone can copy the Shared with me folder, it's a poor substitute for acquiring re-shares as all those files will consume quota and lack connection to the owners' copies.
+8. __Drive (suspension)__. Drive is only available for Takeout after suspension (7/1/22 earliest) and not at all 60 days later, so we'll need to copy with rclone and identify and reestablish existing shares both with and by the account. Note that Docs and Sheets are part of Drive! And while rclone can copy the Shared with me folder, it's a poor substitute for reestablishing shares as all those files will consume quota and lack connection to the owners' copies.
 
 9. __Gmail (suspension)__. Before suspension (or individual account cancellation), we must migrate Gmail. We need to learn which of POP3, IMAP, and Takeout is the best tool. When I canceled Gene's account, I used POP3 to get his messages to Judy, but there were only around 250 messages of note.
 
