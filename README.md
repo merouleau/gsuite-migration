@@ -29,7 +29,7 @@ If our accounts and public identities were identical, the solution we're impleme
 
 3. __GLFE cancellation vs. suspension__. If we cancel GSuite, we strand assets as described above under ___Background___. Suspension preserves access and is the superior choice.
 
-4. __User account suspension__. Suspending users within a Workspace account has different effects and does not relieve us of the cost - it's useless. If we upgrade to buy time or for the long haul, we must weigh savings from user account cancellation against the risk of stranding assets.
+4. __User account suspension__. Suspending users within a Workspace account has different effects and does not relieve us of the cost - it's useless. If we upgrade to buy time or for the long haul, we must weigh savings from each potential user account cancellation against the risk of stranding assets.
 
 5. __Devices (cancellation)__. As [this guy's experience](https://support.google.com/a/thread/8686383/leaving-gsuite-experience) shows, deleting an account can brick your devices. It's a pitfall of Factory Reset Protection. If a device - phone, tablet, TV - is reset while not connected to the account which initially set it up, it must authenticate to that account during any subsequent setup. So those old backup devices that you might use someday? You have to boot them up, connect them to the account, and reset them BEFORE losing access to the account. And that Android TV? It's recycling fodder if you delete the account before resetting it.
 
