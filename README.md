@@ -8,7 +8,7 @@ This repo is a place to manage our family's migration from GSuite Legacy Free to
 
 In 2007 we accepted Google's offer of a perpetually free Google Apps for Domains service with 50 user accounts. At some point, our account limit became 100, and subsequently, new subscribers to the free offer were limited to ten accounts. In 2012, Google stopped accepting new subscribers to the free service. Over the years, Google Apps for Domains became GSuite, and the free service was named GSuite Legacy Free Edition (GLFE).
 
-Now GSuite is becoming Workspace. With that transition, Google will charge for this perpetually free service. Offering no specific terms, Google hinted about a discount to non-business GLFE customers with at most ten accounts.
+Now GSuite is becoming Workspace. With that transition, Google will charge full price for the service that it promised would be perpetually free. While offering no specific terms, Google has hinted about a discount to non-business GLFE customers with at most ten accounts.
 
 Our family uses GLFE to support a shared identity on the Internet, has nine active accounts, and expects to need more as marriages occur and children are born and mature. The 50 accounts promised in 2007 are enough; ten are not.
 
